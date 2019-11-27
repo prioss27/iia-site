@@ -1,0 +1,30 @@
+# Google Image Crawler Setup
+User-agent: Googlebot-Image
+Disallow:
+
+# Crawlers Setup
+User-agent: *
+
+# Website Sitemap
+Sitemap: https://www.iia.cl/sitemap.xml
+
+# Crawlers Setup
+
+# Directories
+User-agent: *
+#Disallow: /404/
+
+
+# Paths (clean URLs)
+Disallow: /index.php/
+
+
+# Files
+#Disallow: /cron.php
+Disallow: /formulario.php
+
+
+# Paths (no clean URLs)
+Disallow: /*.php$
+Disallow: /*?SID=
+

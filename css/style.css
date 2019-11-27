@@ -1,0 +1,371 @@
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@font-face {
+    font-family: 'Raleway';
+    src: url("/fonts/Raleway/raleway-v13-latin-regular.woff2") format("woff2"), url("/fonts/Raleway/raleway-v13-latin-regular.woff") format("woff");
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a.menuprincipal:link {
+    color: black;
+}
+
+
+/* visited link */
+
+a.menuprincipal:visited {
+    color: #ffffff !important;
+}
+
+
+/* mouse over link */
+
+a.menuprincipal:hover {
+    color: #30a5ff !important;
+}
+
+
+/* selected link */
+
+a.menuprincipal:active {
+    color: blue;
+}
+
+
+/*Menu principal PC*/
+
+a.submenupc:link {
+    color: black;
+}
+
+
+/* visited link */
+
+a.submenupc:visited {
+    color: blue !important;
+}
+
+
+/* mouse over link */
+
+a.submenupc:hover {
+    color: #30a5ff !important;
+}
+
+
+/* selected link */
+
+a.submenupc:active {
+    color: blue;
+}
+
+a.servicios:link {
+    font-size: 13px;
+}
+
+a.servicios:hover {
+    text-decoration: none !important;
+}
+
+
+/*Fin Menu principal PC*/
+
+
+/*Menu Footer*/
+
+a.menufoot:link {
+    color: #007bff;
+}
+
+
+/* visited link */
+
+a.menufoot:visited {
+    color: #007bff !important;
+}
+
+
+/* mouse over link */
+
+a.menufoot:hover {
+    color: #30a5ff !important;
+}
+
+
+/* selected link */
+
+a.menufoot:active {
+    color: #3E3E3E;
+}
+
+
+/* Fin Menu Footer*/
+
+.btn-outline-primary {
+    border: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.08em;
+}
+
+.top {
+    padding-top: 10px;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 50px;
+}
+
+.top-menu {
+    float: right;
+}
+
+.slogan {
+    display: flex;
+    align-items: center;
+    line-height: 200px;
+    color: #8c8e8f;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /*  height: auto;*/
+}
+
+.fa-cloud {
+    background-color: #30a5ff;
+    color: #ffffff;
+}
+
+.fa-mobile {
+    background-color: #30a5ff;
+    color: #ffffff;
+}
+
+.fa-calendar {
+    background-color: #30a5ff;
+    color: #ffffff;
+}
+
+.fa-share-alt {
+    color: #30a5ff;
+}
+
+.fa-server {
+    color: #30a5ff;
+}
+
+.fa-hdd {
+    color: #30a5ff;
+}
+
+.fa-mobile-alt {
+    color: #30a5ff;
+}
+
+.fa-chart-bar {
+    color: #30a5ff;
+}
+
+.fa-question-circle {
+    color: #30a5ff;
+}
+
+.fa-tools {
+    color: #30a5ff;
+}
+
+.buttonfa {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonfa:hover {
+    background-color: #f25755 !important;
+    color: white;
+}
+
+.buttonfa2 {
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonfa2:hover {
+    color: #f25755 !important;
+}
+
+.celeste {
+    color: #30a5ff;
+}
+
+.copry {
+    background-color: rgb(0, 123, 255);
+    width: 100%;
+    height: 30px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.margen-footer {
+    margin-left: 35px;
+}
+
+.margen-2 {
+    margin-left: 30px
+}
+
+.margen-3 {
+    margin-left: 50px
+}
+
+.margen-4 {
+    margin-right: 30px
+}
+
+.margenes2 {
+    margin-top: 25px;
+}
+
+
+/*Menu left*/
+
+.vertical-menu {
+    width: 250px;
+}
+
+.vertical-menu a {
+    background-color: #eee!important;
+    color: black;
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc !important;
+}
+
+.vertical-menu a.active {
+    background-color: #8c8e8f !important;
+    color: white !important;
+}
+
+
+/* visited link */
+
+a.menuvertical:visited {
+    color: #999999 !important;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+hr {
+    border: 1px solid #cccccc;
+}
+
+.borde-img {
+    border: 1px solid #cccccc;
+    padding: 3px;
+}
+
+.centrar-img {
+    display: block;
+    margin: auto;
+}
+
+.centrar-video {
+    display: block;
+    margin: auto;
+	border: 1px solid #cccccc;
+}
+
+
+/*Formulario*/
+
+.headerForm {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+.contact--form {
+    text-align: left;
+}
+
+
+/* Fin Formulario*/
+
+
+/*fin menu left*/
+
+@media screen and (max-width:800px) {
+    .menupc {
+        display: none;
+    }
+    .top {
+        margin-top: 10px;
+    }
+    .logo {
+        margin-top: 15px;
+    }
+    .margenes {
+        margin-top: 20px;
+    }
+    .margenes2 {
+        margin-top: 0px !important;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+    #slogan {
+        font-size: 1rem !important;
+    }
+    .vertical-menu {
+        width: 150px;
+    }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (max-width:990px) {
+    
+	
+	.img-fluid {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width:750px) {
+    .vertical-menu {
+        display: none;
+    }
+	
+	.img-fluid {
+		width: 100%;
+	}
+}

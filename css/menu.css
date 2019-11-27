@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topnav {
+			display:none;
+		}
+
+@media screen and (max-width:800px) {
+
+	.topnav {
+			display: block;
+			width: 100%;
+		}
+	.card {
+		position: relative;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		min-width: 0;
+		word-wrap: break-word;
+		background-color: #007bff;
+		background-clip: border-box;
+		border: 1px solid rgba(0,0,0,.125);
+		border-radius: 0;
+	}
+	.mobile-container {
+	  /*max-width: 480px;*/
+		max-width: 100%;
+	  margin: auto;
+	  background-color: #555;
+	 /* height: 500px;*/
+	  color: white;
+	  border-radius: 10px;
+	}
+
+	.topnav {
+	  overflow: hidden;
+	  background-color: #007bff !important;
+	  position: relative;
+
+	}
+
+	.topnav #myLinks {
+	  display: none;
+	}
+
+	.topnav a {
+	  color: white;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	  display: block;
+	}
+
+	.topnav a.icon {
+	  background: #007bff;
+	  display: block;
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+
+	.topnav a:hover {
+	  background-color: #30a5ff !important;
+	  color: #ffffff;
+	}
+
+	.topnav a:active {
+	  background-color: #30a5ff !important;
+	  color: #ffffff;
+	}
+
+	.active-movil {
+	  background-color: #007bff !important;
+	  color: white;
+	  height: 55px;
+	}
+
+    a.menucelular:link {
+        color: #ffffff;
+		
+    }
+    /* visited link */
+    a.menucelular:visited {
+        color: #ffffff !important;
+    }
+    /* mouse over link */
+    a.menucelular:hover {
+        color: #ffffff !important;
+    }
+    /* selected link */
+    a.menucelular:active {
+        color: blue;
+    }
+}
